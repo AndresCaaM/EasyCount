@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Recreational Machine Tracker"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/locationEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Location" />
+
+    <EditText
+        android:id="@+id/statusEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Status" />
+
+    <EditText
+        android:id="@+id/financeEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Finances" />
+
+    <Button
+        android:id="@+id/saveButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Save"
+        android:onClick="saveData" />
+
+    <Button
+        android:id="@+id/viewButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="View Database"
+        android:onClick="viewDatabase"/>
+
+
+</LinearLayout>

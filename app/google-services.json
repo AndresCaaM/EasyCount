@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "863458320308",
+    "firebase_url": "https://easycount-c663b-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "easycount-c663b",
+    "storage_bucket": "easycount-c663b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:863458320308:android:6456b0f512623f722bdce1",
+        "android_client_info": {
+          "package_name": "es.ifp.easycount"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "863458320308-evkvv8qds3b5mebkvsm81s97a742hatp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBc-M8mA7A3p7K8JDyEgHo1TY7S8VD4AvA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "863458320308-evkvv8qds3b5mebkvsm81s97a742hatp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
